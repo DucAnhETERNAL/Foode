@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{346D48B7-DE42-4832-B8B3-E342164B3E06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodWeb", "FoodWeb\FoodWeb.csproj", "{DB5B2967-D0D2-4650-82B8-C7DE194B2E1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{614B335F-B5C9-416E-9762-E906DE8EFF0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{346D48B7-DE42-4832-B8B3-E342164B3E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346D48B7-DE42-4832-B8B3-E342164B3E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346D48B7-DE42-4832-B8B3-E342164B3E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346D48B7-DE42-4832-B8B3-E342164B3E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB5B2967-D0D2-4650-82B8-C7DE194B2E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5B2967-D0D2-4650-82B8-C7DE194B2E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5B2967-D0D2-4650-82B8-C7DE194B2E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5B2967-D0D2-4650-82B8-C7DE194B2E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614B335F-B5C9-416E-9762-E906DE8EFF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614B335F-B5C9-416E-9762-E906DE8EFF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614B335F-B5C9-416E-9762-E906DE8EFF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614B335F-B5C9-416E-9762-E906DE8EFF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FF531BC-89C4-4A07-B3BF-7B1C78324FD0}
+	EndGlobalSection
+EndGlobal
