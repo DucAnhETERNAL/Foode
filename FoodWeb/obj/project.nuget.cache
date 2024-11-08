@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xSUFCxX+dWDACAuYNU5ZV5NK09xItDFzkRTJ+ySKFQz7ER3r77icaTaJ4gqAkttGe8/9BEZPafPSBST/ptDpeg==",
+  "dgSpecHash": "FTb0S1lfF7EOZp3aAXBeFRob7g7Xk4DHfpduTm2igUx/z3F5NhcGq5Mxq5lOrTsiftHzUnvZs1EzYW2nvXN9fg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\FoodWeb\\FoodWeb.csproj",
+  "projectFilePath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\FoodWeb\\FoodWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Truong Van Tin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Truong Van Tin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

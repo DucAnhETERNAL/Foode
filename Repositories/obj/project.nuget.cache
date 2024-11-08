@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c70x8FhGHK1q6FHU6cPvIbcCzA2hhM3Cq0uZS6EXlrYJvcvTOnF1l4Gxp5tBZMYZ7KvfrZ5zMDtF6OrMWO5obw==",
+  "dgSpecHash": "BNx629mV0UeqTOF2pYwtOyp1gZlW1kVrI7qvFCXr/4R6foGWLbnQMfUWRF4ZidjYfyZCLgYcfn+QGSKon++Zkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\Repositories\\Repositories.csproj",
+  "projectFilePath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Repositories\\Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Truong Van Tin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Truong Van Tin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

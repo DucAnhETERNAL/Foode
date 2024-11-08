@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h2+SyW32NvF4T72KmmtZfXZCyNVPlWauRkNO54huWi+H6ObL7SMXt0Mm8t0kgVNe31vaYEyuqR6+JBERQay0rA==",
+  "dgSpecHash": "FnP54lY4QPYMp8OfVR3cZkXaG/yty1RxrO9y6VaIJe881t2puGJoz3Wvt0Sr78TP75SphDfrvpr3gD7X0TsYlQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Truong Van Tin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Truong Van Tin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

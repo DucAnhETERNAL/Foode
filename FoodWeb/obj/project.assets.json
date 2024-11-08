@@ -8375,11 +8375,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\FoodWeb\\FoodWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\FoodWeb\\FoodWeb.csproj",
       "projectName": "FoodWeb",
-      "projectPath": "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\FoodWeb\\FoodWeb.csproj",
+      "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\FoodWeb\\FoodWeb.csproj",
       "packagesPath": "C:\\Users\\Truong Van Tin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\FoodWeb\\obj\\",
+      "outputPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\FoodWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Truong Van Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8396,8 +8396,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\Models\\Models.csproj"
+            "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj"
             }
           }
         }
