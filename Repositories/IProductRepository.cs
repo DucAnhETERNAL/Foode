@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Models;
 
-namespace Repositories
+namespace Food.Repositories
 {
     public interface IProductRepository
     {

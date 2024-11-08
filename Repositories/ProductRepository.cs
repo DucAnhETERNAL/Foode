@@ -3,7 +3,7 @@ using Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Repositories
+namespace Food.Repositories
 {
     public class ProductRepository : IProductRepository
     {

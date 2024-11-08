@@ -270,3 +270,4 @@ D:\Sem7\Food\FoodWeb\obj\Debug\net8.0\refint\FoodWeb.dll
 D:\Sem7\Food\FoodWeb\obj\Debug\net8.0\FoodWeb.pdb
 D:\Sem7\Food\FoodWeb\obj\Debug\net8.0\FoodWeb.genruntimeconfig.cache
 D:\Sem7\Food\FoodWeb\obj\Debug\net8.0\ref\FoodWeb.dll
+D:\Sem7\Food\FoodWeb\obj\Debug\net8.0\FoodWeb.sourcelink.json
