@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sem7\\Food\\FoodWeb\\FoodWeb.csproj": {}
+    "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\FoodWeb\\FoodWeb.csproj": {}
   },
   "projects": {
-    "D:\\Sem7\\Food\\FoodWeb\\FoodWeb.csproj": {
+    "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\FoodWeb\\FoodWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sem7\\Food\\FoodWeb\\FoodWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\FoodWeb\\FoodWeb.csproj",
         "projectName": "FoodWeb",
-        "projectPath": "D:\\Sem7\\Food\\FoodWeb\\FoodWeb.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Sem7\\Food\\FoodWeb\\obj\\",
+        "projectPath": "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\FoodWeb\\FoodWeb.csproj",
+        "packagesPath": "C:\\Users\\Truong Van Tin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\FoodWeb\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Truong Van Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Sem7\\Food\\Models\\Models.csproj": {
-                "projectPath": "D:\\Sem7\\Food\\Models\\Models.csproj"
+              "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\Models\\Models.csproj"
               }
             }
           }
@@ -105,25 +100,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Sem7\\Food\\Models\\Models.csproj": {
+    "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sem7\\Food\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\Sem7\\Food\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Sem7\\Food\\Models\\obj\\",
+        "projectPath": "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Truong Van Tin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Truong Van Tin\\Source\\Repos\\Foode\\Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Truong Van Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -131,7 +122,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -191,7 +181,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
