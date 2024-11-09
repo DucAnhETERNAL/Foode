@@ -13,3 +13,18 @@ D:\Sem7\Food\Models\obj\Debug\net8.0\Models.pdb
 D:\Sem7\Food\Models\obj\Debug\net8.0\Models.genruntimeconfig.cache
 D:\Sem7\Food\Models\obj\Debug\net8.0\ref\Models.dll
 D:\Sem7\Food\Models\obj\Debug\net8.0\Models.sourcelink.json
+C:\Users\Truong Van Tin\source\repos\Foode\Models\bin\Debug\net8.0\Models.deps.json
+C:\Users\Truong Van Tin\source\repos\Foode\Models\bin\Debug\net8.0\Models.runtimeconfig.json
+C:\Users\Truong Van Tin\source\repos\Foode\Models\bin\Debug\net8.0\Models.dll
+C:\Users\Truong Van Tin\source\repos\Foode\Models\bin\Debug\net8.0\Models.pdb
+C:\Users\Truong Van Tin\source\repos\Foode\Models\obj\Debug\net8.0\Models.csproj.AssemblyReference.cache
+C:\Users\Truong Van Tin\source\repos\Foode\Models\obj\Debug\net8.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Truong Van Tin\source\repos\Foode\Models\obj\Debug\net8.0\Models.AssemblyInfoInputs.cache
+C:\Users\Truong Van Tin\source\repos\Foode\Models\obj\Debug\net8.0\Models.AssemblyInfo.cs
+C:\Users\Truong Van Tin\source\repos\Foode\Models\obj\Debug\net8.0\Models.csproj.CoreCompileInputs.cache
+C:\Users\Truong Van Tin\source\repos\Foode\Models\obj\Debug\net8.0\Models.sourcelink.json
+C:\Users\Truong Van Tin\source\repos\Foode\Models\obj\Debug\net8.0\Models.dll
+C:\Users\Truong Van Tin\source\repos\Foode\Models\obj\Debug\net8.0\refint\Models.dll
+C:\Users\Truong Van Tin\source\repos\Foode\Models\obj\Debug\net8.0\Models.pdb
+C:\Users\Truong Van Tin\source\repos\Foode\Models\obj\Debug\net8.0\Models.genruntimeconfig.cache
+C:\Users\Truong Van Tin\source\repos\Foode\Models\obj\Debug\net8.0\ref\Models.dll

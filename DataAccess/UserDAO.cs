@@ -17,9 +17,13 @@ namespace DataAccess
 
         public async Task<User> GetUserById(int id)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.UserId == id);
+            var user = await _context.Users
+                                      .Include(u => u.Orders)  
+                                      .FirstOrDefaultAsync(u => u.UserId == id);
+
             return user;
         }
+
 
         public async Task Add(User user)
         {
@@ -49,6 +53,17 @@ namespace DataAccess
                 _context.Users.Remove(user);
                 await _context.SaveChangesAsync();
             }
+        }
+        public async Task<User> Login(string username, string password)
+        {
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.Username == username && u.Password == password);
+            return user; 
+        }
+        public async Task<User> GetUserByEmail(string email)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+            return user;
         }
     }
 }

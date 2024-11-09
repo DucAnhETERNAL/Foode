@@ -1,247 +1,359 @@
 {
   "Files": [
     {
-      "Id": "D:\\Sem7\\Food\\Food\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Food.bundle.scp.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Food.bundle.scp.css",
       "PackagePath": "staticwebassets\\Food.bundle.scp.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\TemplateFiles\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\TemplateFiles\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\TemplateFiles\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\css\\style.css",
+      "PackagePath": "staticwebassets\\TemplateFiles\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\TemplateFiles\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\css\\style.scss",
+      "PackagePath": "staticwebassets\\TemplateFiles\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\TemplateFiles\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\TemplateFiles\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\TemplateFiles\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\about-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\client1.jpg",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\client1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\client2.jpg",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\client2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\f1.png",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\f1.png"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\f2.png",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\f2.png"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\f3.png",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\f3.png"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\f4.png",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\f4.png"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\f5.png",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\f5.png"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\f6.png",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\f6.png"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\f7.png",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\f7.png"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\f8.png",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\f8.png"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\f9.png",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\f9.png"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\o1.jpg",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\o1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\images\\o2.jpg",
+      "PackagePath": "staticwebassets\\TemplateFiles\\images\\o2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\TemplateFiles\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\js\\custom.js",
+      "PackagePath": "staticwebassets\\TemplateFiles\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\TemplateFiles\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

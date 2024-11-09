@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Models
 {
@@ -21,25 +18,32 @@ namespace Models
         public string Username { get; set; }
 
         [MaxLength(15)]
-        public string Mobile { get; set; }
+        public string? Mobile { get; set; }
 
         [MaxLength(255)]
-        public string Email { get; set; }
+        public string? Email { get; set; }
 
-        public string Address { get; set; }
+        public string? Address { get; set; }
 
         [MaxLength(10)]
-        public string PostCode { get; set; }
+        public string? PostCode { get; set; }
 
         [Required]
-        public string Password { get; set; }
+        public string? Password { get; set; }
 
         [MaxLength(500)]
-        public string ImageUrl { get; set; }
+        public string? ImageUrl { get; set; }
 
         public DateTime CreatedDate { get; set; } = DateTime.Now;
 
-        public ICollection<Cart> Carts { get; set; }
-        public ICollection<Order> Orders { get; set; }
+        [MaxLength(50)]
+        public string? Role { get; set; }
+
+        public string? VerificationCode { get; set; }
+        public bool IsEmailVerified { get; set; } = false;
+
+        public ICollection<Cart> Carts { get; set; } = new List<Cart>();
+        public ICollection<Order> Orders { get; set; } = new List<Order>();
+
     }
 }

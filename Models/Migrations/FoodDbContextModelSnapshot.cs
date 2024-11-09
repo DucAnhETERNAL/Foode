@@ -75,6 +75,24 @@ namespace Models.Migrations
                     b.HasKey("CategoryId");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = 1,
+                            CreatedDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9438),
+                            ImageUrl = "fruits.jpg",
+                            IsActive = true,
+                            Name = "Fruits"
+                        },
+                        new
+                        {
+                            CategoryId = 2,
+                            CreatedDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9454),
+                            ImageUrl = "vegetables.jpg",
+                            IsActive = true,
+                            Name = "Vegetables"
+                        });
                 });
 
             modelBuilder.Entity("Models.Contact", b =>
@@ -154,6 +172,30 @@ namespace Models.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Orders");
+
+                    b.HasData(
+                        new
+                        {
+                            OrderDetailsId = 1,
+                            OrderDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9702),
+                            OrderNo = "ORD001",
+                            PaymentId = 1,
+                            ProductId = 1,
+                            Quantity = 2,
+                            Status = "Pending",
+                            UserId = 1
+                        },
+                        new
+                        {
+                            OrderDetailsId = 2,
+                            OrderDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9705),
+                            OrderNo = "ORD002",
+                            PaymentId = 1,
+                            ProductId = 2,
+                            Quantity = 3,
+                            Status = "Completed",
+                            UserId = 2
+                        });
                 });
 
             modelBuilder.Entity("Models.Payment", b =>
@@ -194,6 +236,18 @@ namespace Models.Migrations
                     b.HasKey("PaymentId");
 
                     b.ToTable("Payments");
+
+                    b.HasData(
+                        new
+                        {
+                            PaymentId = 1,
+                            Address = "123 Main St",
+                            CardNo = "1234567812345678",
+                            CvvNo = "123",
+                            ExpiryDate = new DateTime(2025, 12, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "John Doe",
+                            PaymentMode = "Credit Card"
+                        });
                 });
 
             modelBuilder.Entity("Models.Product", b =>
@@ -238,6 +292,32 @@ namespace Models.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            ProductId = 1,
+                            CategoryId = 1,
+                            CreatedDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9578),
+                            Description = "Fresh red apples",
+                            ImageUrl = "apple.jpg",
+                            IsActive = true,
+                            Name = "Apple",
+                            Price = 1.50m,
+                            Quantity = 100
+                        },
+                        new
+                        {
+                            ProductId = 2,
+                            CategoryId = 2,
+                            CreatedDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9586),
+                            Description = "Organic carrots",
+                            ImageUrl = "carrot.jpg",
+                            IsActive = true,
+                            Name = "Carrot",
+                            Price = 0.80m,
+                            Quantity = 200
+                        });
                 });
 
             modelBuilder.Entity("Models.User", b =>
@@ -249,24 +329,23 @@ namespace Models.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
 
                     b.Property<string>("Address")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("ImageUrl")
-                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
+                    b.Property<bool>("IsEmailVerified")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Mobile")
-                        .IsRequired()
                         .HasMaxLength(15)
                         .HasColumnType("nvarchar(15)");
 
@@ -280,18 +359,55 @@ namespace Models.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PostCode")
-                        .IsRequired()
                         .HasMaxLength(10)
                         .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("Role")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
+                    b.Property<string>("VerificationCode")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("UserId");
 
+                    b.HasIndex("Email")
+                        .IsUnique()
+                        .HasFilter("[Email] IS NOT NULL");
+
+                    b.HasIndex("Username")
+                        .IsUnique();
+
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = 1,
+                            CreatedDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9657),
+                            Email = "admin@example.com",
+                            IsEmailVerified = false,
+                            Name = "Admin User",
+                            Password = "admin123",
+                            Role = "Admin",
+                            Username = "admin"
+                        },
+                        new
+                        {
+                            UserId = 2,
+                            CreatedDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9660),
+                            Email = "user@example.com",
+                            IsEmailVerified = false,
+                            Name = "Regular User",
+                            Password = "user123",
+                            Role = "User",
+                            Username = "user"
+                        });
                 });
 
             modelBuilder.Entity("Models.Cart", b =>
@@ -299,13 +415,13 @@ namespace Models.Migrations
                     b.HasOne("Models.Product", "Product")
                         .WithMany("Carts")
                         .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Models.User", "User")
                         .WithMany("Carts")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Product");
@@ -318,19 +434,19 @@ namespace Models.Migrations
                     b.HasOne("Models.Payment", "Payment")
                         .WithMany("Orders")
                         .HasForeignKey("PaymentId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Models.Product", "Product")
                         .WithMany("Orders")
                         .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Models.User", "User")
                         .WithMany("Orders")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Payment");

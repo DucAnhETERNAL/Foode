@@ -1,4 +1,5 @@
-using Food.Repositories;
+﻿using Food.Repositories;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Models;
 
@@ -16,7 +17,24 @@ namespace Food
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
             builder.Services.AddDbContext<FoodDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Food")));
+            // add Repository
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+            builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
+            builder.Services.AddScoped<ICartRepository, CartRepository>();
+            builder.Services.AddScoped<IContactRepository, ContactRepository>();
+            // Cấu hình Cookie Authentication
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = "/Users/Login"; // Đường dẫn tới trang login
+                    options.AccessDeniedPath = "/Users/AccessDenied"; // Đường dẫn tới trang từ chối truy cập nếu người dùng không có quyền
+                });
+            builder.Services.AddScoped<IEmailService, EmailService>();
             var app = builder.Build();
+           
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -26,14 +44,28 @@ namespace Food
                 app.UseHsts();
             }
 
+
             app.UseHttpsRedirection();
+            app.UseDefaultFiles();
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            
+            app.UseAuthentication();
             app.UseAuthorization();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapRazorPages();
 
+                // Cấu hình chuyển hướng mặc định đến trang Menu
+                endpoints.MapGet("/", context =>
+                {
+                    context.Response.Redirect("/Users/Menu");
+                    return Task.CompletedTask;
+                });
+            });
             app.MapRazorPages();
+           
 
             app.Run();
         }

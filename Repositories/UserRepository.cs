@@ -1,4 +1,5 @@
 ﻿using DataAccess;
+using Microsoft.EntityFrameworkCore;
 using Models;
 using System;
 using System.Collections.Generic;
@@ -33,6 +34,14 @@ namespace Food.Repositories
         public async Task Update(User user)
         {
             await UserDAO.Instance.Update(user);
+        }
+        public async Task<User> Login(string username, string password)
+        {
+            return await UserDAO.Instance.Login(username, password);
+        }
+        public async Task<User> GetUserByEmail(string email)
+        {
+            return await UserDAO.Instance.GetUserByEmail(email);
         }
     }
 }
