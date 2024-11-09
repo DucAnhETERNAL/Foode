@@ -14,7 +14,7 @@ namespace Models
         public string Name { get; set; }
 
         [MaxLength(500)]
-        public string ImageUrl { get; set; }
+        public string? ImageUrl { get; set; }
 
         public bool IsActive { get; set; } = true;
 

@@ -12,10 +12,13 @@ namespace Food
 
             // Add services to the container.
             builder.Services.AddRazorPages();
+            builder.Services.AddSignalR();
+            builder.Services.AddControllers();
+
 
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-            builder.Services.AddDbContext<FoodDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Food")));
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddDbContext<FoodDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Food")));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -33,8 +36,10 @@ namespace Food
 
             app.UseAuthorization();
 
-            app.MapRazorPages();
+            app.MapHub<SignalRService>("/SignalRHub");
 
+            app.MapRazorPages();
+            app.MapControllers();
             app.Run();
         }
     }

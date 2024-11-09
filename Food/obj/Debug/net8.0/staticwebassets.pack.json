@@ -5,12 +5,44 @@
       "PackagePath": "staticwebassets\\Food.bundle.scp.css"
     },
     {
+      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\Images\\Categories\\451326235_901194622053117_5076736186284089629_n.jpg",
+      "PackagePath": "staticwebassets\\Images\\Categories\\451326235_901194622053117_5076736186284089629_n.jpg"
+    },
+    {
+      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\Images\\Categories\\Voice.ai-Downloader.exe",
+      "PackagePath": "staticwebassets\\Images\\Categories\\Voice.ai-Downloader.exe"
+    },
+    {
+      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\Images\\Categories\\chamber.jpg",
+      "PackagePath": "staticwebassets\\Images\\Categories\\chamber.jpg"
+    },
+    {
+      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\Images\\Categories\\classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg",
+      "PackagePath": "staticwebassets\\Images\\Categories\\classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg"
+    },
+    {
+      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\Images\\Categories\\default.png",
+      "PackagePath": "staticwebassets\\Images\\Categories\\default.png"
+    },
+    {
+      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\Images\\Products\\classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg"
+    },
+    {
+      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\Images\\Products\\default.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\default.png"
+    },
+    {
       "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\js\\signalr.js",
+      "PackagePath": "staticwebassets\\js\\signalr.js"
     },
     {
       "Id": "D:\\Sem7\\Food\\Food\\wwwroot\\js\\site.js",
