@@ -37,6 +37,19 @@
             @RenderBody()
         </main>
     </div>
+    @if (ViewData["NoContainer"] == null)
+    {
+        <div class="container mt-3">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    }
+    else
+    {
+        @RenderBody()
+    }
+
 
     <footer class="border-top footer text-muted">
         <div class="container">
