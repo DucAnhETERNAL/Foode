@@ -43,5 +43,16 @@ namespace Food.Repositories
         {
             return await UserDAO.Instance.GetUserByEmail(email);
         }
-    }
+
+        public async Task<IEnumerable<User>> GetUsersWithUserRole()
+        {
+            return await UserDAO.Instance.GetUsersByRole("User");
+        }
+
+		public async Task<int> GetUserCount()
+		{
+			return await UserDAO.Instance.GetUserCount();
+		}
+
+	}
 }

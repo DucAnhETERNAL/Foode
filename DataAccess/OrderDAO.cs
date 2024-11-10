@@ -13,7 +13,10 @@ namespace DataAccess
 
         public async Task<IEnumerable<Order>> GetOrderAll()
         {
-            return await _context.Orders.ToListAsync();
+            return await _context.Orders
+                .Include(o => o.Product) // Tải thông tin Product liên quan
+                .Include(o => o.User)    // Tải thông tin User liên quan
+                .ToListAsync();
         }
 
         public async Task<Order> GetOrderById(int id)
@@ -37,7 +40,7 @@ namespace DataAccess
             }
             else
             {
-                _context.Orders.Add(order);
+                await _context.Orders.AddAsync(order);
             }
             await _context.SaveChangesAsync();
         }
@@ -51,5 +54,11 @@ namespace DataAccess
                 await _context.SaveChangesAsync();
             }
         }
-    }
+
+		public async Task<int> GetOrderCount()
+		{
+			return await _context.Orders.CountAsync();
+		}
+
+	}
 }

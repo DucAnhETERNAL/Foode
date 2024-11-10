@@ -16,5 +16,9 @@ namespace Food.Repositories
         Task Delete(int id);
         Task<User> Login(string username, string password);
         Task<User> GetUserByEmail(string email);
-    }
+
+        Task<IEnumerable<User>> GetUsersWithUserRole();
+        Task<int> GetUserCount();
+
+	}
 }

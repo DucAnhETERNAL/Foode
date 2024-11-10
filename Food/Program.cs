@@ -1,4 +1,5 @@
-﻿using Food.Repositories;
+﻿using DataAccess;
+using Food.Repositories;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Models;
@@ -25,6 +26,9 @@ namespace Food
             builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
             builder.Services.AddScoped<ICartRepository, CartRepository>();
             builder.Services.AddScoped<IContactRepository, ContactRepository>();
+
+            builder.Services.AddScoped<OrderDAO>();
+
             // Cấu hình Cookie Authentication
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>
