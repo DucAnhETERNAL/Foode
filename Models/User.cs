@@ -42,8 +42,8 @@ namespace Models
         public string? VerificationCode { get; set; }
         public bool IsEmailVerified { get; set; } = false;
 
-        public ICollection<Cart> Carts { get; set; } = new List<Cart>();
-        public ICollection<Order> Orders { get; set; } = new List<Order>();
+        public ICollection<Cart> ?Carts { get; set; } = new List<Cart>();
+        public ICollection<Order> ?Orders { get; set; } = new List<Order>();
 
     }
 }

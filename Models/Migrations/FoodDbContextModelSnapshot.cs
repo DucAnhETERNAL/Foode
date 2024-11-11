@@ -46,6 +46,43 @@ namespace Models.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Carts");
+
+                    b.HasData(
+                        new
+                        {
+                            CartId = 1,
+                            ProductId = 1,
+                            Quantity = 2,
+                            UserId = 1
+                        },
+                        new
+                        {
+                            CartId = 2,
+                            ProductId = 2,
+                            Quantity = 3,
+                            UserId = 1
+                        },
+                        new
+                        {
+                            CartId = 3,
+                            ProductId = 1,
+                            Quantity = 1,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            CartId = 4,
+                            ProductId = 2,
+                            Quantity = 4,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            CartId = 5,
+                            ProductId = 1,
+                            Quantity = 5,
+                            UserId = 2
+                        });
                 });
 
             modelBuilder.Entity("Models.Category", b =>
@@ -80,7 +117,7 @@ namespace Models.Migrations
                         new
                         {
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9438),
+                            CreatedDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4161),
                             ImageUrl = "fruits.jpg",
                             IsActive = true,
                             Name = "Fruits"
@@ -88,7 +125,7 @@ namespace Models.Migrations
                         new
                         {
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9454),
+                            CreatedDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4174),
                             ImageUrl = "vegetables.jpg",
                             IsActive = true,
                             Name = "Vegetables"
@@ -177,7 +214,7 @@ namespace Models.Migrations
                         new
                         {
                             OrderDetailsId = 1,
-                            OrderDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9702),
+                            OrderDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4378),
                             OrderNo = "ORD001",
                             PaymentId = 1,
                             ProductId = 1,
@@ -188,7 +225,7 @@ namespace Models.Migrations
                         new
                         {
                             OrderDetailsId = 2,
-                            OrderDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9705),
+                            OrderDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4381),
                             OrderNo = "ORD002",
                             PaymentId = 1,
                             ProductId = 2,
@@ -298,7 +335,7 @@ namespace Models.Migrations
                         {
                             ProductId = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9578),
+                            CreatedDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4299),
                             Description = "Fresh red apples",
                             ImageUrl = "apple.jpg",
                             IsActive = true,
@@ -310,7 +347,7 @@ namespace Models.Migrations
                         {
                             ProductId = 2,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9586),
+                            CreatedDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4305),
                             Description = "Organic carrots",
                             ImageUrl = "carrot.jpg",
                             IsActive = true,
@@ -389,7 +426,7 @@ namespace Models.Migrations
                         new
                         {
                             UserId = 1,
-                            CreatedDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9657),
+                            CreatedDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4332),
                             Email = "admin@example.com",
                             IsEmailVerified = false,
                             Name = "Admin User",
@@ -400,7 +437,7 @@ namespace Models.Migrations
                         new
                         {
                             UserId = 2,
-                            CreatedDate = new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9660),
+                            CreatedDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4334),
                             Email = "user@example.com",
                             IsEmailVerified = false,
                             Name = "Regular User",

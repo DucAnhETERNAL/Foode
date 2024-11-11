@@ -20,6 +20,24 @@ namespace DataAccess
             var cart = await _context.Carts.FirstOrDefaultAsync(c => c.CartId == id);
             return cart;
         }
+		public async Task<Cart> GetCartItemAsync(int userId, int productId)
+		{
+			
+			var cartItem = await _context.Carts
+										 .Include(c => c.Product)  
+										 .Where(c => c.UserId == userId && c.ProductId == productId)
+										 .FirstOrDefaultAsync();
+
+			return cartItem;
+		}
+
+		public async Task<List<Cart>> GetCartByUserIdAsync(int userId)
+        {
+            return await _context.Carts
+                                 .Include(c => c.Product)
+                                 .Where(c => c.UserId == userId)
+                                 .ToListAsync();
+        }
 
         public async Task Add(Cart cart)
         {

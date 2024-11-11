@@ -30,7 +30,9 @@ namespace Food.Pages.Users
             // Lấy thông tin đơn hàng của người dùng
             if (UserProfile != null)
             {
-                OrderHistory = UserProfile.Orders.ToList(); // Lấy danh sách các đơn hàng của người dùng
+                OrderHistory = UserProfile.Orders.ToList();
+                 
+                // Lấy danh sách các đơn hàng của người dùng
             }
             else
             {

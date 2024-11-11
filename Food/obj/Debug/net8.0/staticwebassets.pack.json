@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Food.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\Images\\User\\1.jpg",
+      "PackagePath": "staticwebassets\\Images\\User\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\Images\\User\\3.png",
+      "PackagePath": "staticwebassets\\Images\\User\\3.png"
+    },
+    {
       "Id": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\wwwroot\\TemplateFiles\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\TemplateFiles\\css\\bootstrap.css"
     },

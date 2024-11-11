@@ -24,8 +24,16 @@ namespace Food.Repositories
         {
             return await CartDAO.Instance.GetCartAll();
         }
-
-        public async Task<Cart> GetCartById(int id)
+        public async Task<List<Cart>> GetCartByUserIdAsync(int id)
+        {
+            return await CartDAO.Instance.GetCartByUserIdAsync(id);
+        }
+		public async Task<Cart> GetCartItemAsync(int userId, int productId)
+		{
+			
+			return await CartDAO.Instance.GetCartItemAsync(userId, productId);
+		}
+		public async Task<Cart> GetCartById(int id)
         {
             return await CartDAO.Instance.GetCartById(id);
         }

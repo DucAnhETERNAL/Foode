@@ -170,6 +170,43 @@ namespace Models
         PaymentId = 1, // Thanh toán từ John Doe
         OrderDate = DateTime.Now
     }
+        );
+            modelBuilder.Entity<Cart>().HasData(
+    new Cart
+    {
+        CartId = 1,
+        ProductId = 1,  // Sản phẩm Apple
+        Quantity = 2,   // Số lượng 2
+        UserId = 1      // Người dùng là Admin User
+    },
+    new Cart
+    {
+        CartId = 2,
+        ProductId = 2,  // Sản phẩm Carrot
+        Quantity = 3,   // Số lượng 3
+        UserId = 1      // Người dùng là Admin User
+    },
+    new Cart
+    {
+        CartId = 3,
+        ProductId = 1,  // Sản phẩm Apple
+        Quantity = 1,   // Số lượng 1
+        UserId = 2      // Người dùng là Regular User
+    },
+    new Cart
+    {
+        CartId = 4,
+        ProductId = 2,  // Sản phẩm Carrot
+        Quantity = 4,   // Số lượng 4
+        UserId = 2      // Người dùng là Regular User
+    },
+    new Cart
+    {
+        CartId = 5,
+        ProductId = 1,  // Sản phẩm Apple
+        Quantity = 5,   // Số lượng 5
+        UserId = 2      // Người dùng là Regular User
+    }
 );
 
         }

@@ -29,8 +29,11 @@ namespace Food
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>
                 {
-                    options.LoginPath = "/Users/Login"; // Đường dẫn tới trang login
-                    options.AccessDeniedPath = "/Users/AccessDenied"; // Đường dẫn tới trang từ chối truy cập nếu người dùng không có quyền
+                    options.LoginPath = "/Users/Login"; 
+                    options.AccessDeniedPath = "/Users/AccessDenied";
+                    options.ExpireTimeSpan = TimeSpan.FromMinutes(5);  
+                    options.SlidingExpiration = true;  // Optional: This will reset the expiration time each time a user is active
+
                 });
             builder.Services.AddScoped<IEmailService, EmailService>();
             var app = builder.Build();
