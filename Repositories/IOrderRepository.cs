@@ -14,5 +14,8 @@ namespace Food.Repositories
         Task Add(Order order);
         Task Update(Order order);
         Task Delete(int id);
-    }
+
+        Task<int> GetOrderCount();
+
+	}
 }

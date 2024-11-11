@@ -1,0 +1,483 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\PRN221_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|e:\\prn221_project\\food\\pages\\admin\\dashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|solutionrelative:food\\pages\\admin\\dashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30D8667-C5F1-4770-9B61-5AA7179E1EE4}|Repositories\\Repositories.csproj|e:\\prn221_project\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30D8667-C5F1-4770-9B61-5AA7179E1EE4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30D8667-C5F1-4770-9B61-5AA7179E1EE4}|Repositories\\Repositories.csproj|e:\\prn221_project\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30D8667-C5F1-4770-9B61-5AA7179E1EE4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30D8667-C5F1-4770-9B61-5AA7179E1EE4}|Repositories\\Repositories.csproj|e:\\prn221_project\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30D8667-C5F1-4770-9B61-5AA7179E1EE4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30D8667-C5F1-4770-9B61-5AA7179E1EE4}|Repositories\\Repositories.csproj|e:\\prn221_project\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30D8667-C5F1-4770-9B61-5AA7179E1EE4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{614B335F-B5C9-416E-9762-E906DE8EFF0C}|DataAccess\\DataAccess.csproj|e:\\prn221_project\\dataaccess\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614B335F-B5C9-416E-9762-E906DE8EFF0C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{614B335F-B5C9-416E-9762-E906DE8EFF0C}|DataAccess\\DataAccess.csproj|e:\\prn221_project\\dataaccess\\orderdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614B335F-B5C9-416E-9762-E906DE8EFF0C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\orderdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|e:\\prn221_project\\food\\pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|solutionrelative:food\\pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|e:\\prn221_project\\food\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|solutionrelative:food\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|e:\\prn221_project\\food\\pages\\admin\\manageorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|solutionrelative:food\\pages\\admin\\manageorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|e:\\prn221_project\\food\\pages\\admin\\manageorders.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|solutionrelative:food\\pages\\admin\\manageorders.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346D48B7-DE42-4832-B8B3-E342164B3E06}|Models\\Models.csproj|e:\\prn221_project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346D48B7-DE42-4832-B8B3-E342164B3E06}|Models\\Models.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346D48B7-DE42-4832-B8B3-E342164B3E06}|Models\\Models.csproj|e:\\prn221_project\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346D48B7-DE42-4832-B8B3-E342164B3E06}|Models\\Models.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{614B335F-B5C9-416E-9762-E906DE8EFF0C}|DataAccess\\DataAccess.csproj|e:\\prn221_project\\dataaccess\\contactdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614B335F-B5C9-416E-9762-E906DE8EFF0C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\contactdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{614B335F-B5C9-416E-9762-E906DE8EFF0C}|DataAccess\\DataAccess.csproj|e:\\prn221_project\\dataaccess\\paymentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614B335F-B5C9-416E-9762-E906DE8EFF0C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\paymentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30D8667-C5F1-4770-9B61-5AA7179E1EE4}|Repositories\\Repositories.csproj|e:\\prn221_project\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30D8667-C5F1-4770-9B61-5AA7179E1EE4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|e:\\prn221_project\\food\\pages\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|solutionrelative:food\\pages\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|e:\\prn221_project\\food\\pages\\admin\\manageusers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|solutionrelative:food\\pages\\admin\\manageusers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346D48B7-DE42-4832-B8B3-E342164B3E06}|Models\\Models.csproj|e:\\prn221_project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346D48B7-DE42-4832-B8B3-E342164B3E06}|Models\\Models.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|e:\\prn221_project\\food\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|solutionrelative:food\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|e:\\prn221_project\\food\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|solutionrelative:food\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|e:\\prn221_project\\food\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|solutionrelative:food\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|e:\\prn221_project\\food\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|solutionrelative:food\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|e:\\prn221_project\\food\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|solutionrelative:food\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|e:\\prn221_project\\food\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19EE3DFF-B8BB-45FE-A818-7DFD1153E57B}|Food\\Food.csproj|solutionrelative:food\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 709,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\PRN221_Project\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA7wDMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T11:03:43.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cshtml.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\Food\\Pages\\Admin\\Dashboard.cshtml.cs",
+              "RelativeDocumentMoniker": "Food\\Pages\\Admin\\Dashboard.cshtml.cs",
+              "ToolTip": "E:\\PRN221_Project\\Food\\Pages\\Admin\\Dashboard.cshtml.cs",
+              "RelativeToolTip": "Food\\Pages\\Admin\\Dashboard.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:49:58.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderDAO.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\DataAccess\\OrderDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\OrderDAO.cs",
+              "ToolTip": "E:\\PRN221_Project\\DataAccess\\OrderDAO.cs",
+              "RelativeToolTip": "DataAccess\\OrderDAO.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAUwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T21:17:33.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDAO.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\DataAccess\\UserDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\UserDAO.cs",
+              "ToolTip": "E:\\PRN221_Project\\DataAccess\\UserDAO.cs",
+              "RelativeToolTip": "DataAccess\\UserDAO.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAywE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T10:39:07.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\OrderRepository.cs",
+              "ToolTip": "E:\\PRN221_Project\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA3wCcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:43:02.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IOrderRepository.cs",
+              "ToolTip": "E:\\PRN221_Project\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T07:13:13.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
+              "ToolTip": "E:\\PRN221_Project\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T21:37:49.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\PRN221_Project\\Food\\Pages\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Food\\Pages\\Admin\\Dashboard.cshtml",
+              "ToolTip": "E:\\PRN221_Project\\Food\\Pages\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Food\\Pages\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T11:02:18.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "E:\\PRN221_Project\\Food\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Food\\Pages\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "E:\\PRN221_Project\\Food\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Food\\Pages\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwDoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T10:57:10.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ManageOrders.cshtml.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\Food\\Pages\\Admin\\ManageOrders.cshtml.cs",
+              "RelativeDocumentMoniker": "Food\\Pages\\Admin\\ManageOrders.cshtml.cs",
+              "ToolTip": "E:\\PRN221_Project\\Food\\Pages\\Admin\\ManageOrders.cshtml.cs",
+              "RelativeToolTip": "Food\\Pages\\Admin\\ManageOrders.cshtml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAIwCsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T20:56:33.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManageOrders.cshtml",
+              "DocumentMoniker": "E:\\PRN221_Project\\Food\\Pages\\Admin\\ManageOrders.cshtml",
+              "RelativeDocumentMoniker": "Food\\Pages\\Admin\\ManageOrders.cshtml",
+              "ToolTip": "E:\\PRN221_Project\\Food\\Pages\\Admin\\ManageOrders.cshtml",
+              "RelativeToolTip": "Food\\Pages\\Admin\\ManageOrders.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T20:56:26.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "E:\\PRN221_Project\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA5wCcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:15:11.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactDAO.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\DataAccess\\ContactDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\ContactDAO.cs",
+              "ToolTip": "E:\\PRN221_Project\\DataAccess\\ContactDAO.cs",
+              "RelativeToolTip": "DataAccess\\ContactDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:10:00.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PaymentDAO.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\DataAccess\\PaymentDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\PaymentDAO.cs",
+              "ToolTip": "E:\\PRN221_Project\\DataAccess\\PaymentDAO.cs",
+              "RelativeToolTip": "DataAccess\\PaymentDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:48:17.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "E:\\PRN221_Project\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:30:53.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "E:\\PRN221_Project\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:31:57.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManageUsers.cshtml",
+              "DocumentMoniker": "E:\\PRN221_Project\\Food\\Pages\\Admin\\ManageUsers.cshtml",
+              "RelativeDocumentMoniker": "Food\\Pages\\Admin\\ManageUsers.cshtml",
+              "ToolTip": "E:\\PRN221_Project\\Food\\Pages\\Admin\\ManageUsers.cshtml",
+              "RelativeToolTip": "Food\\Pages\\Admin\\ManageUsers.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAApwCsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T10:47:24.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ManageUsers.cshtml.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\Food\\Pages\\Admin\\ManageUsers.cshtml.cs",
+              "RelativeDocumentMoniker": "Food\\Pages\\Admin\\ManageUsers.cshtml.cs",
+              "ToolTip": "E:\\PRN221_Project\\Food\\Pages\\Admin\\ManageUsers.cshtml.cs",
+              "RelativeToolTip": "Food\\Pages\\Admin\\ManageUsers.cshtml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwB0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T10:47:48.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "E:\\PRN221_Project\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T10:39:21.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\PRN221_Project\\Food\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Food\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "E:\\PRN221_Project\\Food\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Food\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T06:49:50.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\PRN221_Project\\Food\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Food\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\PRN221_Project\\Food\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Food\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T06:49:51.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Privacy.cshtml.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\Food\\Pages\\Privacy.cshtml.cs",
+              "RelativeDocumentMoniker": "Food\\Pages\\Privacy.cshtml.cs",
+              "ToolTip": "E:\\PRN221_Project\\Food\\Pages\\Privacy.cshtml.cs",
+              "RelativeToolTip": "Food\\Pages\\Privacy.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T01:50:36.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\PRN221_Project\\Food\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Food\\Pages\\Privacy.cshtml",
+              "ToolTip": "E:\\PRN221_Project\\Food\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Food\\Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T01:50:36.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\PRN221_Project\\Food\\Program.cs",
+              "RelativeDocumentMoniker": "Food\\Program.cs",
+              "ToolTip": "E:\\PRN221_Project\\Food\\Program.cs",
+              "RelativeToolTip": "Food\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA+wB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T21:02:12.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "script.js",
+              "DocumentMoniker": "E:\\PRN221_Project\\Food\\wwwroot\\js\\script.js",
+              "RelativeDocumentMoniker": "Food\\wwwroot\\js\\script.js",
+              "ToolTip": "E:\\PRN221_Project\\Food\\wwwroot\\js\\script.js",
+              "RelativeToolTip": "Food\\wwwroot\\js\\script.js",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-10T01:19:13.338Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 964,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
