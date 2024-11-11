@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PRN221_Project\\Repositories\\Repositories.csproj": {}
+    "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "E:\\PRN221_Project\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PRN221_Project\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "E:\\PRN221_Project\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\PRN221_Project\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Truong Van Tin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Truong Van Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\PRN221_Project\\Models\\Models.csproj": {
-                "projectPath": "E:\\PRN221_Project\\Models\\Models.csproj"
+              "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj"
               }
             }
           }
@@ -39,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -95,21 +89,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\PRN221_Project\\Models\\Models.csproj": {
+    "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PRN221_Project\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "E:\\PRN221_Project\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\PRN221_Project\\Models\\obj\\",
+        "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Truong Van Tin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Truong Van Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,7 +111,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -130,11 +123,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -186,21 +174,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\PRN221_Project\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PRN221_Project\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "E:\\PRN221_Project\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\PRN221_Project\\Repositories\\obj\\",
+        "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\Truong Van Tin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Truong Van Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -208,18 +196,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\PRN221_Project\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "E:\\PRN221_Project\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\DataAccess\\DataAccess.csproj"
               },
-              "E:\\PRN221_Project\\Models\\Models.csproj": {
-                "projectPath": "E:\\PRN221_Project\\Models\\Models.csproj"
+              "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj"
               }
             }
           }
@@ -228,11 +215,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -288,7 +270,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
