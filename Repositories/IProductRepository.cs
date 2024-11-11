@@ -14,6 +14,9 @@ namespace Food.Repositories
         Task Add(Product product);
         Task Update(Product product);
         Task Delete(int id);
+
+        Task<IEnumerable<Product>> GetProductsByCategory(int categoryId);
+
     }
 }
 

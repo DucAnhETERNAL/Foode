@@ -31,5 +31,10 @@ namespace Food.Repositories
         {
             await ProductDAO.Instance.Update(product);
         }
+
+        public async Task<IEnumerable<Product>> GetProductsByCategory(int categoryId)
+        {
+            return await ProductDAO.Instance.GetProductsByCategory(categoryId);
+        }
     }
 }

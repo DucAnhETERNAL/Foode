@@ -52,6 +52,13 @@ namespace DataAccess
                 await _context.SaveChangesAsync();
             }
         }
+
+        public async Task<IEnumerable<Product>> GetProductsByCategory(int categoryId)
+        {
+            return await _context.Products
+                .Where(p => p.CategoryId == categoryId && p.IsActive)
+                .ToListAsync();
+        }
     }
 }
 
