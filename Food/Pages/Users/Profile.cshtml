@@ -90,11 +90,36 @@
 
                                         <!-- Order History -->
                                         <div class="tab-pane fade show" id="connectedServices" role="tabpanel" aria-labelledby="connectedServices-tab">
+                                            <h5>Order History</h5>
                                             <ul>
                                                 @foreach (var order in Model.OrderHistory)
                                                 {
                                                     <li>
-                                                        <strong>Order ID:</strong> @order.OrderNo - <strong>Status:</strong> @order.Status
+                                                        <div class="order-summary mb-3">
+                                                            <p><strong>Order ID:</strong> @order.OrderNo</p>
+                                                            <p><strong>Status:</strong> <span class="badge badge-success">@order.Status</span></p>
+                                                            <p><strong>Order Date:</strong> @order.OrderDate.ToString("MM/dd/yyyy")</p>
+
+                                                            <!-- Display Product Information -->
+                                                            <table class="table table-bordered mt-2">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Product Name</th>
+                                                                        <th>Unit Price</th>
+                                                                        <th>Quantity</th>
+                                                                        <th>Total Price</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>@order.Product.Name</td>
+                                                                        <td>@order.Product.Price.ToString("C")</td>
+                                                                        <td>@order.Quantity</td>
+                                                                        <td>@(order.Product.Price * order.Quantity).ToString("C")</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
                                                     </li>
                                                 }
                                             </ul>

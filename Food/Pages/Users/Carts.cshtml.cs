@@ -9,8 +9,8 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Food.Pages.Users
 {
-    [Authorize]
-    public class CartModel : PageModel
+	[Authorize(Roles = "User")]
+	public class CartModel : PageModel
     {
         
         private readonly ICartRepository _cartRepository;

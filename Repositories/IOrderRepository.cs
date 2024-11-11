@@ -9,6 +9,7 @@ namespace Food.Repositories
 {
     public interface IOrderRepository
     {
+        Task<List<Order>> GetOrdersByUserId(int userId);
         Task<IEnumerable<Order>> GetAllOrders();
         Task<Order> GetOrderById(int id);
         Task Add(Order order);

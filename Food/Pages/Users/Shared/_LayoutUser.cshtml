@@ -39,7 +39,7 @@
     @RenderSection("head", false)
 </head>
 <body>
-    <div class="hero_area" >
+    <div class="hero_area">
         <div class="bg-box">
             <img src="~/TemplateFiles/images/hero-bg.jpg" alt="">
         </div>
@@ -97,11 +97,18 @@
                             <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
                                 <i class="fa fa-search" aria-hidden="true"></i>
                             </button>
-                            <a class="order_online" href="#">Order Online</a>
+
                             @if (User.Identity.IsAuthenticated)
                             {
-                                <a href="/Users/Logout" class="btn btn-danger btn-sm">Logout</a>
+                                <a href="/Users/Logout" class="order_online">Logout</a>
                             }
+                            else
+                            {
+                                <a href="/Users/Login" class="order_online">Login</a>
+
+                            }
+
+
                         </div>
                     </div>
                 </nav>
@@ -183,3 +190,6 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
 </body>
 </html>
+
+
+

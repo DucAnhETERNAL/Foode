@@ -11,6 +11,11 @@ namespace Food.Repositories
 {
     public class OrderRepository : IOrderRepository
     {
+        public async Task<List<Order>> GetOrdersByUserId(int userId)
+        {
+           return await OrderDAO.Instance.GetOrdersByUserId(userId);
+
+        }
         public async Task Add(Order order)
         {
             await OrderDAO.Instance.Add(order);

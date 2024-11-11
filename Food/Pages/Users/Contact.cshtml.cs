@@ -4,10 +4,12 @@ using System.Threading.Tasks;
 using Food.Repositories;
 using Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Foodie.Pages.Users
 {
-    public class ContactModel : PageModel
+	[Authorize(Roles = "User")]
+	public class ContactModel : PageModel
     {
         private readonly IContactRepository _contactRepository;
 

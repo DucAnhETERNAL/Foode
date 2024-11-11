@@ -6,10 +6,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Food.Pages.Admin
 {
-    public class ManageOrdersModel : PageModel
+	[Authorize(Roles = "Admin")]
+	public class ManageOrdersModel : PageModel
     {
         private readonly IOrderRepository _orderRepository;
         private const int PageSize = 6; // Số lượng đơn hàng trên mỗi trang

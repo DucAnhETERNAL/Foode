@@ -4,10 +4,12 @@ using Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Food.Pages.Admin
 {
-    public class ContactsModel : PageModel
+	[Authorize(Roles = "Admin")]
+	public class ContactsModel : PageModel
     {
         private readonly IContactRepository _contactRepository;
 

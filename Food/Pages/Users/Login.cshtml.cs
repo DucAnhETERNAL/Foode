@@ -58,8 +58,17 @@ public class LoginModel : PageModel
             // Đăng nhập người dùng với Claims
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
 
-            // Chuyển hướng đến trang Menu sau khi đăng nhập thành công
-            return RedirectToPage("/Users/Menu");
+           
+            if (user.Role == "Admin")
+            {
+                
+                return RedirectToPage("/Admin/Dashboard");
+            }
+            else
+            {
+                
+                return RedirectToPage("/Users/Default");
+            }
         }
 
         // Nếu đăng nhập thất bại

@@ -1,11 +1,13 @@
 using Food.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Models;
 
 namespace FoodWeb.Pages.Admin
 {
-    public class CategoryModel : PageModel
+	[Authorize(Roles = "Admin")]
+	public class CategoryModel : PageModel
     {
         private readonly ICategoryRepository _categoryRepository;
 

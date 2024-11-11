@@ -4,16 +4,20 @@ using Food.Repositories;
 using Models;
 using System.Threading.Tasks;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Food.Pages.Users
 {
-    public class ProfileModel : PageModel
+	[Authorize(Roles = "User")]
+	public class ProfileModel : PageModel
     {
         private readonly IUserRepository _userRepository;
+        private readonly IOrderRepository _orderRepository;
 
-        public ProfileModel(IUserRepository userRepository)
+        public ProfileModel(IUserRepository userRepository, IOrderRepository orderRepository)
         {
             _userRepository = userRepository;
+            _orderRepository = orderRepository;
         }
 
         public User UserProfile { get; set; }
@@ -30,7 +34,7 @@ namespace Food.Pages.Users
             // Lấy thông tin đơn hàng của người dùng
             if (UserProfile != null)
             {
-                OrderHistory = UserProfile.Orders.ToList();
+                OrderHistory = await _orderRepository.GetOrdersByUserId(int.Parse(userId));
                  
                 // Lấy danh sách các đơn hàng của người dùng
             }

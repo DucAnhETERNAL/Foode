@@ -6,10 +6,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Food.Pages.Admin
 {
-    public class ManageUsersModel : PageModel
+	[Authorize(Roles = "Admin")]
+	public class ManageUsersModel : PageModel
     {
         private readonly IUserRepository _userRepository;
         private const int PageSize = 6;

@@ -24,6 +24,13 @@ namespace DataAccess
             var order = await _context.Orders.FirstOrDefaultAsync(o => o.OrderDetailsId == id);
             return order;
         }
+        public async Task<List<Order>> GetOrdersByUserId(int userId)
+        {
+            return await _context.Orders
+                .Where(o => o.UserId == userId)
+                .Include(o => o.Product) 
+                .ToListAsync();
+        }
 
         public async Task Add(Order order)
         {

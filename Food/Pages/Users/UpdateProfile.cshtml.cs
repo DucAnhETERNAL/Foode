@@ -5,9 +5,11 @@ using Models;
 using System.IO;
 using System.Threading.Tasks;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Food.Pages.Users
 {
+    [Authorize(Roles ="User")]
     public class UpdateProfileModel : PageModel
     {
         private readonly IUserRepository _userRepository;
