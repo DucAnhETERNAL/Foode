@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JKiTT1EOzcVxhrjTl2seyDGL2alrqxjJpO+4jpkcHvQUkRzBRSUrlmu+UaOoE1LuekLYvNVSb9YPyCGUpu6fHA==",
+  "dgSpecHash": "UA0hJCyoxTw4FD3FFuD7jjrivI2lrfopQnV5MXMeWxob/9BbblIBDer489RjrNssCtnxfc+MNY5mIGxTsIimUw==",
   "success": true,
   "projectFilePath": "D:\\Sem7\\Merge\\Foode\\Food\\Food.csproj",
   "expectedPackageFiles": [
@@ -55,6 +55,8 @@
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\mimekit\\4.8.0\\mimekit.4.8.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\payos\\1.0.9\\payos.1.0.9.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",
