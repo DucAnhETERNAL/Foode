@@ -8,7 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Food.Pages.Admin.Product
+namespace Food.Pages.Admin
 {
     public class EditProductModel : PageModel
     {

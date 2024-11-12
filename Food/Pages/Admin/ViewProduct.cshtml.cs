@@ -2,7 +2,7 @@ using Food.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Food.Pages.Admin.Product
+namespace Food.Pages.Admin
 {
     public class ViewProductModel : PageModel
     {

@@ -117,7 +117,7 @@ namespace Models.Migrations
                         new
                         {
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1789),
+                            CreatedDate = new DateTime(2024, 11, 12, 20, 21, 57, 715, DateTimeKind.Local).AddTicks(2632),
                             ImageUrl = "fruits.jpg",
                             IsActive = true,
                             Name = "Fruits"
@@ -125,7 +125,7 @@ namespace Models.Migrations
                         new
                         {
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1801),
+                            CreatedDate = new DateTime(2024, 11, 12, 20, 21, 57, 715, DateTimeKind.Local).AddTicks(2649),
                             ImageUrl = "vegetables.jpg",
                             IsActive = true,
                             Name = "Vegetables"
@@ -214,7 +214,7 @@ namespace Models.Migrations
                         new
                         {
                             OrderDetailsId = 1,
-                            OrderDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1978),
+                            OrderDate = new DateTime(2024, 11, 12, 20, 21, 57, 715, DateTimeKind.Local).AddTicks(2892),
                             OrderNo = "ORD001",
                             PaymentId = 1,
                             ProductId = 1,
@@ -225,7 +225,7 @@ namespace Models.Migrations
                         new
                         {
                             OrderDetailsId = 2,
-                            OrderDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1980),
+                            OrderDate = new DateTime(2024, 11, 12, 20, 21, 57, 715, DateTimeKind.Local).AddTicks(2895),
                             OrderNo = "ORD002",
                             PaymentId = 1,
                             ProductId = 2,
@@ -335,7 +335,7 @@ namespace Models.Migrations
                         {
                             ProductId = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1897),
+                            CreatedDate = new DateTime(2024, 11, 12, 20, 21, 57, 715, DateTimeKind.Local).AddTicks(2793),
                             Description = "Fresh red apples",
                             ImageUrl = "apple.jpg",
                             IsActive = true,
@@ -347,7 +347,7 @@ namespace Models.Migrations
                         {
                             ProductId = 2,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1903),
+                            CreatedDate = new DateTime(2024, 11, 12, 20, 21, 57, 715, DateTimeKind.Local).AddTicks(2802),
                             Description = "Organic carrots",
                             ImageUrl = "carrot.jpg",
                             IsActive = true,
@@ -426,7 +426,7 @@ namespace Models.Migrations
                         new
                         {
                             UserId = 1,
-                            CreatedDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1924),
+                            CreatedDate = new DateTime(2024, 11, 12, 20, 21, 57, 715, DateTimeKind.Local).AddTicks(2831),
                             Email = "admin@example.com",
                             IsEmailVerified = false,
                             Name = "Admin User",
@@ -437,7 +437,7 @@ namespace Models.Migrations
                         new
                         {
                             UserId = 2,
-                            CreatedDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1927),
+                            CreatedDate = new DateTime(2024, 11, 12, 20, 21, 57, 715, DateTimeKind.Local).AddTicks(2834),
                             Email = "user@example.com",
                             IsEmailVerified = false,
                             Name = "Regular User",
