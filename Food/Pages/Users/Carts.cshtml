@@ -40,18 +40,19 @@
                                     @foreach (var cartItem in Model.Carts)
                                     {
                                         <tr>
-                                            <td><input type="checkbox" class="selectItem" data-price="@cartItem.Product.Price" data-quantity="@cartItem.Quantity" data-productid="@cartItem.Product.ProductId" /></td>
+                                            <td>
+                                                <input type="checkbox" class="selectItem"
+                                                       data-productid="@cartItem.Product.ProductId" />
+                                            </td>
                                             <td><img src="@cartItem.Product.ImageUrl" alt="@cartItem.Product.Name" class="img-fluid" style="max-width: 100px;" /></td>
                                             <td>@cartItem.Product.Name</td>
                                             <td>@cartItem.Product.Price.ToString("C")</td>
                                             <td>
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <!-- Decrease Quantity -->
                                                     <form method="post" asp-page-handler="UpdateQuantity" asp-route-productId="@cartItem.Product.ProductId">
                                                         <button type="submit" class="btn btn-sm btn-danger" name="quantity" value="@(cartItem.Quantity - 1)">-</button>
                                                     </form>
                                                     <span>@cartItem.Quantity</span>
-                                                    <!-- Increase Quantity -->
                                                     <form method="post" asp-page-handler="UpdateQuantity" asp-route-productId="@cartItem.Product.ProductId">
                                                         <button type="submit" class="btn btn-sm btn-success" name="quantity" value="@(cartItem.Quantity + 1)">+</button>
                                                     </form>
@@ -59,7 +60,6 @@
                                             </td>
                                             <td>$@(cartItem.Product.Price * cartItem.Quantity)</td>
                                             <td>
-                                                <!-- Delete Product -->
                                                 <form method="post" asp-page-handler="DeleteItem" asp-route-productId="@cartItem.ProductId">
                                                     <button type="submit" class="btn btn-danger btn-sm">Delete</button>
                                                 </form>
@@ -84,7 +84,11 @@
                                         <h5><strong>Shipping Address:</strong> @Model.UserProfile.Address</h5>
                                         <h5><strong>Phone Number:</strong> @Model.UserProfile.Mobile</h5>
                                     </div>
-                                    <a href="/Users/Checkout" class="btn btn-success">Proceed to Checkout</a>
+                                    <form method="post" asp-page-handler="ProceedToPayment" id="paymentForm">
+                                        <!-- Trường ẩn lưu trữ danh sách các sản phẩm đã chọn -->
+                                        <input type="hidden" id="selectedItems" name="selectedItems" />
+                                        <button type="submit" class="btn btn-success">Proceed to Checkout</button>
+                                    </form>
                                 }
                             </div>
                         }
@@ -98,6 +102,15 @@
 @section Scripts {
     <script>
         $(document).ready(function () {
+            $(".selectItem").change(function () {
+                // Cập nhật danh sách các sản phẩm đã chọn khi có thay đổi
+                const selectedItems = Array.from($(".selectItem:checked"))
+                    .map(item => $(item).data("productid"))
+                    .join(",");
+                $("#selectedItems").val(selectedItems); // Đặt giá trị cho trường ẩn
+            });
+
+            // Disable other checkboxes when only one item is selected (if needed)
             $(".selectItem").change(function () {
                 if ($(".selectItem:checked").length === 1) {
                     $(".selectItem").not(":checked").prop("disabled", true);

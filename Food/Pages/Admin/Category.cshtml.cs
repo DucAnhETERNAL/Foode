@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Models;
 
-namespace FoodWeb.Pages.Admin
+namespace Food.Pages.Admin
 {
 	[Authorize(Roles = "Admin")]
 	public class CategoryModel : PageModel

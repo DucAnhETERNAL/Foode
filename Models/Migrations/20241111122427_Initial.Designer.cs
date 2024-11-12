@@ -12,8 +12,8 @@ using Models;
 namespace Models.Migrations
 {
     [DbContext(typeof(FoodDbContext))]
-    [Migration("20241110133419_AddCartData")]
-    partial class AddCartData
+    [Migration("20241111122427_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -120,7 +120,7 @@ namespace Models.Migrations
                         new
                         {
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4161),
+                            CreatedDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1789),
                             ImageUrl = "fruits.jpg",
                             IsActive = true,
                             Name = "Fruits"
@@ -128,7 +128,7 @@ namespace Models.Migrations
                         new
                         {
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4174),
+                            CreatedDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1801),
                             ImageUrl = "vegetables.jpg",
                             IsActive = true,
                             Name = "Vegetables"
@@ -217,7 +217,7 @@ namespace Models.Migrations
                         new
                         {
                             OrderDetailsId = 1,
-                            OrderDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4378),
+                            OrderDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1978),
                             OrderNo = "ORD001",
                             PaymentId = 1,
                             ProductId = 1,
@@ -228,7 +228,7 @@ namespace Models.Migrations
                         new
                         {
                             OrderDetailsId = 2,
-                            OrderDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4381),
+                            OrderDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1980),
                             OrderNo = "ORD002",
                             PaymentId = 1,
                             ProductId = 2,
@@ -338,7 +338,7 @@ namespace Models.Migrations
                         {
                             ProductId = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4299),
+                            CreatedDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1897),
                             Description = "Fresh red apples",
                             ImageUrl = "apple.jpg",
                             IsActive = true,
@@ -350,7 +350,7 @@ namespace Models.Migrations
                         {
                             ProductId = 2,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4305),
+                            CreatedDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1903),
                             Description = "Organic carrots",
                             ImageUrl = "carrot.jpg",
                             IsActive = true,
@@ -429,7 +429,7 @@ namespace Models.Migrations
                         new
                         {
                             UserId = 1,
-                            CreatedDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4332),
+                            CreatedDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1924),
                             Email = "admin@example.com",
                             IsEmailVerified = false,
                             Name = "Admin User",
@@ -440,7 +440,7 @@ namespace Models.Migrations
                         new
                         {
                             UserId = 2,
-                            CreatedDate = new DateTime(2024, 11, 10, 20, 34, 19, 402, DateTimeKind.Local).AddTicks(4334),
+                            CreatedDate = new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1927),
                             Email = "user@example.com",
                             IsEmailVerified = false,
                             Name = "Regular User",

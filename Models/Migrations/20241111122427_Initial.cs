@@ -183,8 +183,8 @@ namespace Models.Migrations
                 columns: new[] { "CategoryId", "CreatedDate", "ImageUrl", "IsActive", "Name" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9438), "fruits.jpg", true, "Fruits" },
-                    { 2, new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9454), "vegetables.jpg", true, "Vegetables" }
+                    { 1, new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1789), "fruits.jpg", true, "Fruits" },
+                    { 2, new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1801), "vegetables.jpg", true, "Vegetables" }
                 });
 
             migrationBuilder.InsertData(
@@ -197,8 +197,8 @@ namespace Models.Migrations
                 columns: new[] { "UserId", "Address", "CreatedDate", "Email", "ImageUrl", "IsEmailVerified", "Mobile", "Name", "Password", "PostCode", "Role", "Username", "VerificationCode" },
                 values: new object[,]
                 {
-                    { 1, null, new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9657), "admin@example.com", null, false, null, "Admin User", "admin123", null, "Admin", "admin", null },
-                    { 2, null, new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9660), "user@example.com", null, false, null, "Regular User", "user123", null, "User", "user", null }
+                    { 1, null, new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1924), "admin@example.com", null, false, null, "Admin User", "admin123", null, "Admin", "admin", null },
+                    { 2, null, new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1927), "user@example.com", null, false, null, "Regular User", "user123", null, "User", "user", null }
                 });
 
             migrationBuilder.InsertData(
@@ -206,8 +206,20 @@ namespace Models.Migrations
                 columns: new[] { "ProductId", "CategoryId", "CreatedDate", "Description", "ImageUrl", "IsActive", "Name", "Price", "Quantity" },
                 values: new object[,]
                 {
-                    { 1, 1, new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9578), "Fresh red apples", "apple.jpg", true, "Apple", 1.50m, 100 },
-                    { 2, 2, new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9586), "Organic carrots", "carrot.jpg", true, "Carrot", 0.80m, 200 }
+                    { 1, 1, new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1897), "Fresh red apples", "apple.jpg", true, "Apple", 1.50m, 100 },
+                    { 2, 2, new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1903), "Organic carrots", "carrot.jpg", true, "Carrot", 0.80m, 200 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Carts",
+                columns: new[] { "CartId", "ProductId", "Quantity", "UserId" },
+                values: new object[,]
+                {
+                    { 1, 1, 2, 1 },
+                    { 2, 2, 3, 1 },
+                    { 3, 1, 1, 2 },
+                    { 4, 2, 4, 2 },
+                    { 5, 1, 5, 2 }
                 });
 
             migrationBuilder.InsertData(
@@ -215,8 +227,8 @@ namespace Models.Migrations
                 columns: new[] { "OrderDetailsId", "OrderDate", "OrderNo", "PaymentId", "ProductId", "Quantity", "Status", "UserId" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9702), "ORD001", 1, 1, 2, "Pending", 1 },
-                    { 2, new DateTime(2024, 11, 9, 11, 49, 0, 592, DateTimeKind.Local).AddTicks(9705), "ORD002", 1, 2, 3, "Completed", 2 }
+                    { 1, new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1978), "ORD001", 1, 1, 2, "Pending", 1 },
+                    { 2, new DateTime(2024, 11, 11, 19, 24, 27, 325, DateTimeKind.Local).AddTicks(1980), "ORD002", 1, 2, 3, "Completed", 2 }
                 });
 
             migrationBuilder.CreateIndex(
