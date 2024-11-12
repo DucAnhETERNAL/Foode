@@ -59,7 +59,8 @@ namespace Food
             app.UseStaticFiles();
 
             app.UseRouting();
-            
+            app.MapHub<SignalRService>("/SignalRHub");
+
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>

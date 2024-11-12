@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Models;
 
-namespace Food.Pages.Admin
+namespace Food.Pages.Admin.Product
 {
     public class CreateProductModel : PageModel
     {

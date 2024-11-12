@@ -43,3 +43,4 @@ namespace Food.Pages.Admin
         public DateTime CreatedDate { get; set; }
     }
 }
+
