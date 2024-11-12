@@ -1,13 +1,11 @@
 using Food.Repositories;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Models;
 
 namespace Food.Pages.Admin
 {
-	[Authorize(Roles = "Admin")]
-	public class CategoryModel : PageModel
+    public class CategoryModel : PageModel
     {
         private readonly ICategoryRepository _categoryRepository;
 
@@ -15,22 +13,33 @@ namespace Food.Pages.Admin
         {
             _categoryRepository = categoryRepository;
         }
-        [BindProperty]
-        public Category Category { get; set; }
-        public List<Category> Categories { get; set; } = new List<Category>();
+
+        public List<CategoryViewModel> CategoriesList { get; set; }
+
         public async Task OnGetAsync()
         {
-            Categories = (await _categoryRepository.GetAllCategories()).ToList();
-        }
-        public async Task<IActionResult> OnPostAsync()
-        {
-            if (!ModelState.IsValid)
+            var categories = await _categoryRepository.GetAllCategories();
+            CategoriesList = categories.Select(c => new CategoryViewModel
             {
-                return Page();
-            }
+                CategoryID = c.CategoryId,
+                CategoryName = c.Name,
+                IsActive = c.IsActive,
+                CreatedDate = c.CreatedDate
+            }).ToList();
+        }
 
-            await _categoryRepository.Add(Category);
+        public async Task<IActionResult> OnPostDeleteAsync(int id)
+        {
+            await _categoryRepository.Delete(id);
             return RedirectToPage();
         }
+    }
+
+    public class CategoryViewModel
+    {
+        public int CategoryID { get; set; }
+        public string CategoryName { get; set; }
+        public bool IsActive { get; set; }
+        public DateTime CreatedDate { get; set; }
     }
 }

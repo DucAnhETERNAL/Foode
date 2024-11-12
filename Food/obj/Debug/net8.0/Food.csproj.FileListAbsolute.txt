@@ -618,3 +618,5 @@ D:\Sem7\Merge\Foode\Food\obj\Debug\net8.0\scopedcss\projectbundle\Food.bundle.sc
 D:\Sem7\Merge\Foode\Food\obj\Debug\net8.0\Food.csproj.CopyComplete
 D:\Sem7\Merge\Foode\Food\obj\Debug\net8.0\Food.genruntimeconfig.cache
 D:\Sem7\Merge\Foode\Food\obj\Debug\net8.0\ref\Food.dll
+C:\Users\Truong Van Tin\source\repos\Foode\Food\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Truong Van Tin\source\repos\Foode\Food\bin\Debug\net8.0\payos-lib-backend-dotnet.dll

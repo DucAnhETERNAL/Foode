@@ -69,7 +69,7 @@ namespace Food
                 // Cấu hình chuyển hướng mặc định đến trang Menu
                 endpoints.MapGet("/", context =>
                 {
-                    context.Response.Redirect("/Users/Menu");
+                    context.Response.Redirect("/Users/Default");
                     return Task.CompletedTask;
                 });
             });

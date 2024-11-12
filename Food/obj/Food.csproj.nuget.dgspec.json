@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sem7\\Merge\\Foode\\Food\\Food.csproj": {}
+    "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\Food.csproj": {}
   },
   "projects": {
-    "D:\\Sem7\\Merge\\Foode\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sem7\\Merge\\Foode\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Sem7\\Merge\\Foode\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Sem7\\Merge\\Foode\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Truong Van Tin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Truong Van Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Sem7\\Merge\\Foode\\Models\\Models.csproj": {
-                "projectPath": "D:\\Sem7\\Merge\\Foode\\Models\\Models.csproj"
+              "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj"
               }
             }
           }
@@ -94,25 +89,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Sem7\\Merge\\Foode\\Food\\Food.csproj": {
+    "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\Food.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sem7\\Merge\\Foode\\Food\\Food.csproj",
+        "projectUniqueName": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\Food.csproj",
         "projectName": "Food",
-        "projectPath": "D:\\Sem7\\Merge\\Foode\\Food\\Food.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Sem7\\Merge\\Foode\\Food\\obj\\",
+        "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\Food.csproj",
+        "packagesPath": "C:\\Users\\Truong Van Tin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Food\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Truong Van Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,18 +111,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Sem7\\Merge\\Foode\\Models\\Models.csproj": {
-                "projectPath": "D:\\Sem7\\Merge\\Foode\\Models\\Models.csproj"
+              "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj"
               },
-              "D:\\Sem7\\Merge\\Foode\\Repositories\\Repositories.csproj": {
-                "projectPath": "D:\\Sem7\\Merge\\Foode\\Repositories\\Repositories.csproj"
+              "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -202,25 +192,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Sem7\\Merge\\Foode\\Models\\Models.csproj": {
+    "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sem7\\Merge\\Foode\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\Sem7\\Merge\\Foode\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Sem7\\Merge\\Foode\\Models\\obj\\",
+        "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Truong Van Tin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Truong Van Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -228,7 +214,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -292,25 +277,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Sem7\\Merge\\Foode\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sem7\\Merge\\Foode\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "D:\\Sem7\\Merge\\Foode\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Sem7\\Merge\\Foode\\Repositories\\obj\\",
+        "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\Truong Van Tin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Truong Van Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -318,18 +299,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Sem7\\Merge\\Foode\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Sem7\\Merge\\Foode\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\Sem7\\Merge\\Foode\\Models\\Models.csproj": {
-                "projectPath": "D:\\Sem7\\Merge\\Foode\\Models\\Models.csproj"
+              "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Truong Van Tin\\source\\repos\\Foode\\Models\\Models.csproj"
               }
             }
           }
@@ -393,7 +373,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

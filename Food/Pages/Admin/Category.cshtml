@@ -1,82 +1,119 @@
 ﻿@page
-@model Food.Pages.Admin.CategoryModel
+@model CategoryModel
 @{
     ViewData["Title"] = "Category Management";
-    Layout = "_AdminLayout";
 }
 
 <div class="container mt-5">
-    <h2 class="text-uppercase">Category</h2>
+    <h2 class="text-uppercase">Category List</h2>
     <div class="row">
-        <!-- Form để thêm hoặc chỉnh sửa Category -->
-        <div class="col-md-4">
+        <div class="col-md-12">
             <div class="card">
-                <div class="card-header">Category</div>
+                <div class="card-header">Categories</div>
                 <div class="card-body">
-                    <form method="post" enctype="multipart/form-data">
-                        <div class="form-group">
-                            <label for="CategoryName">Category Name</label>
-                            <input type="text" class="form-control" id="CategoryName" name="CategoryName" placeholder="Enter Category Name" />
-                        </div>
-                        <div class="form-group">
-                            <label for="CategoryImage">Category Image</label>
-                            <input type="file" class="form-control-file" id="CategoryImage" name="CategoryImage" />
-                        </div>
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="IsActive" name="IsActive" />
-                            <label class="form-check-label" for="IsActive">Is Active</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary mt-3">Add</button>
-                        <button type="reset" class="btn btn-secondary mt-3">Clear</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <!-- Danh sách Category -->
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Category</div>
-                <div class="card-body">
-                    <table class="table table-bordered">
+                    <table class="table table-bordered" id="categoryTable">
                         <thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Image</th>
-                                <th>IsActive</th>
-                                <th>CreatedDate</th>
+                                <th>Category ID</th>
+                                <th>Category Name</th>
+                                <th>Is Active</th>
+                                <th>Created Date</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            @foreach (var category in Model.Categories)
+                        <tbody id="categoryTableBody">
+                            @foreach (var category in Model.CategoriesList)
                             {
-                                <tr>
-                                    <td>@category.Name</td>
-                                    <td>
-                                        <img src="@category.ImageUrl" alt="Category Image" width="50" height="50" />
-                                    </td>
+                                <tr id="category-@category.CategoryID">
+                                    <td>@category.CategoryID</td>
+                                    <td>@category.CategoryName</td>
                                     <td>
                                         @if (category.IsActive)
                                         {
-                                            <span class="badge badge-success">Active</span>
+                                            <span class="badge badge-success text-dark">Active</span>
                                         }
                                         else
                                         {
-                                            <span class="badge badge-danger">Inactive</span>
+                                            <span class="badge badge-danger text-dark">Inactive</span>
                                         }
                                     </td>
                                     <td>@category.CreatedDate.ToString("MM/dd/yyyy hh:mm:ss tt")</td>
                                     <td>
-                                        <a href="/Edit/@category.CategoryId" class="btn btn-sm btn-primary"><i class="fas fa-edit"></i></a>
-                                        <a href="/Delete/@category.CategoryId" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
+                                        <a asp-page="./EditCategory" asp-route-id="@category.CategoryID" class="btn btn-sm btn-primary">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <form method="post" asp-page-handler="Delete" asp-route-id="@category.CategoryID" onsubmit="return confirm('Are you sure you want to delete this category?');" style="display:inline;">
+                                            <button type="submit" class="btn btn-sm btn-danger">
+                                                <i class="fas fa-trash"></i>
+                                            </button>
+                                        </form>
                                     </td>
                                 </tr>
                             }
                         </tbody>
                     </table>
+                    <a asp-page="./CreateCategory" class="btn btn-primary mt-3">Add New Category</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<!-- SignalR JavaScript library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>
+<script>
+    // Kết nối với SignalR Hub
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/SignalRHub") // URL này phải khớp với URL bạn cấu hình trong Program.cs
+        .build();
+
+    connection.start().catch(err => console.error(err.toString()));
+
+    // Lắng nghe sự kiện `ReceiveNewCategory` từ server
+    connection.on("ReceiveNewCategory", (category) => {
+        // Tạo hàng mới với dữ liệu danh mục mới
+        const row = document.createElement("tr");
+        row.id = `category-${category.CategoryId}`;
+        row.innerHTML = `
+                    <td>${category.CategoryId}</td>
+                    <td>${category.Name}</td>
+                    <td>${category.IsActive ? '<span class="badge badge-success text-dark">Active</span>' : '<span class="badge badge-danger text-dark">Inactive</span>'}</td>
+                    <td>${new Date(category.CreatedDate).toLocaleString()}</td>
+                    <td>
+                        <a href="/Admin/EditCategory?id=${category.CategoryId}" class="btn btn-sm btn-primary">
+                            <i class="fas fa-edit"></i>
+                        </a>
+                        <form method="post" onsubmit="return confirm('Are you sure you want to delete this category?');" style="display:inline;">
+                            <button type="submit" class="btn btn-sm btn-danger">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </form>
+                    </td>
+                `;
+        document.getElementById("categoryTableBody").appendChild(row);
+    });
+
+    // Lắng nghe sự kiện `ReceiveUpdatedCategory` từ server
+    connection.on("ReceiveUpdatedCategory", (category) => {
+        const row = document.getElementById(`category-${category.CategoryId}`);
+        if (row) {
+            // Cập nhật nội dung của hàng với dữ liệu mới
+            row.innerHTML = `
+                        <td>${category.CategoryId}</td>
+                        <td>${category.Name}</td>
+                        <td>${category.IsActive ? '<span class="badge badge-success text-dark">Active</span>' : '<span class="badge badge-danger text-dark">Inactive</span>'}</td>
+                        <td>${new Date(category.CreatedDate).toLocaleString()}</td>
+                        <td>
+                            <a href="/Admin/EditCategory?id=${category.CategoryId}" class="btn btn-sm btn-primary">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                            <form method="post" onsubmit="return confirm('Are you sure you want to delete this category?');" style="display:inline;">
+                                <button type="submit" class="btn btn-sm btn-danger">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+    </form>
+                        </td>
+                    `;
+        }
+    });
+</script>
