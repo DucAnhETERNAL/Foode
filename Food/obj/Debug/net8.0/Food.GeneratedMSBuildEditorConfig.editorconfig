@@ -22,11 +22,19 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Truong Van Tin/source/repos/Foode/Food/Pages/Admin/Contacts.cshtml]
+[D:/Sem7/Merge/Foode/Food/Pages/Admin/Contacts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ29udGFjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Truong Van Tin/source/repos/Foode/Food/Pages/Admin/Dashboard.cshtml]
+[D:/Sem7/Merge/Foode/Food/Pages/Admin/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/Merge/Foode/Food/Pages/Admin/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ3JlYXRlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/Merge/Foode/Food/Pages/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -70,11 +78,11 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Truong Van Tin/source/repos/Foode/Food/Pages/Users/About.cshtml]
+[D:/Sem7/Merge/Foode/Food/Pages/Users/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Truong Van Tin/source/repos/Foode/Food/Pages/Users/AccessDenied.cshtml]
+[D:/Sem7/Merge/Foode/Food/Pages/Users/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQWNjZXNzRGVuaWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -98,15 +106,15 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQ29uZmlybUVtYWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Truong Van Tin/source/repos/Foode/Food/Pages/Users/Contact.cshtml]
+[D:/Sem7/Merge/Foode/Food/Pages/Users/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Truong Van Tin/source/repos/Foode/Food/Pages/Users/Default.cshtml]
+[D:/Sem7/Merge/Foode/Food/Pages/Users/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Truong Van Tin/source/repos/Foode/Food/Pages/Users/ForgotPassword.cshtml]
+[D:/Sem7/Merge/Foode/Food/Pages/Users/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRm9yZ290UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
